@@ -1,0 +1,81 @@
+<spin_simulation>
+	<version>2</version>
+	<name>L-tryptophan</name>
+	<ID>bmse000050</ID>
+	<SRC name="BMRB" ID="bmse000050"></SRC>
+	<InChI>InChI=1S/C11H12N2O2/c12-9(11(14)15)5-7-6-13-10-4-2-1-3-8(7)10/h1-4,6,9,13H,5,12H2,(H,14,15)/t9-/m0/s1</InChI>
+	<comp_db_link>
+		<db_link DBname="CAS Registry" Accession_code="6912-86-3"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="73-22-3"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="80206-30-0"></db_link>
+	</comp_db_link>
+	<mol_file_path>./bmse000050.mol</mol_file_path>
+	<experimental_spectrum>
+		<type>Bruker</type>
+		<root_folder>./1H/</root_folder>
+	</experimental_spectrum>
+	<field_strength>499.84</field_strength>
+	<field_strength_applied_flag>1</field_strength_applied_flag>
+	<num_simulation_points>32768</num_simulation_points>
+	<num_simulation_points_applied_flag>1</num_simulation_points_applied_flag>
+	<path_2D_image>./bmse000050_.jpg</path_2D_image>
+	<num_split_matrices>0</num_split_matrices>
+	<roi_rmsd>0.01856</roi_rmsd>
+	<notes>
+		<status>Done</status>
+		<note>16,18 assigned by qm</note>
+	</notes>
+	<coupling_matrix>
+		<label>merged</label>
+		<index>1</index>
+		<lw>0.846</lw>
+		<peak_shape_coefficients>
+			<lorentzian>1.000</lorentzian>
+			<gaussian>0.000</gaussian>
+		</peak_shape_coefficients>
+		<water_region>
+			<min_ppm>4.6</min_ppm>
+			<max_ppm>5</max_ppm>
+			<remove_flag>1</remove_flag>
+		</water_region>
+		<DSS_region>
+			<min_ppm>-.1</min_ppm>
+			<max_ppm>.1</max_ppm>
+			<remove_flag>1</remove_flag>
+		</DSS_region>
+		<additional_coupling_constants>
+		</additional_coupling_constants>
+		<spin_names>
+			<spin index="1" name="17"></spin>
+			<spin index="2" name="16"></spin>
+			<spin index="3" name="19"></spin>
+			<spin index="4" name="18"></spin>
+			<spin index="5" name="22"></spin>
+			<spin index="6" name="20"></spin>
+			<spin index="7" name="21"></spin>
+			<spin index="8" name="23"></spin>
+		</spin_names>
+		<chemical_shifts_ppm>
+			<cs index="1" ppm="7.27252"></cs>
+			<cs index="2" ppm="7.19003"></cs>
+			<cs index="3" ppm="7.52821"></cs>
+			<cs index="4" ppm="7.72062"></cs>
+			<cs index="5" ppm="7.30355"></cs>
+			<cs index="6" ppm="3.29379"></cs>
+			<cs index="7" ppm="3.46987"></cs>
+			<cs index="8" ppm="4.03550"></cs>
+		</chemical_shifts_ppm>
+		<couplings_Hz>
+			<coupling from_index="1" to_index="2" value="7.2859610"></coupling>
+			<coupling from_index="1" to_index="3" value="7.9232260"></coupling>
+			<coupling from_index="2" to_index="4" value="7.6496010"></coupling>
+			<coupling from_index="6" to_index="7" value="-15.5881150"></coupling>
+			<coupling from_index="6" to_index="8" value="8.0498900"></coupling>
+			<coupling from_index="7" to_index="8" value="5.0082020"></coupling>
+		</couplings_Hz>
+		<peak_list>
+		</peak_list>
+		<spectrum>
+		</spectrum>
+	</coupling_matrix>
+</spin_simulation>

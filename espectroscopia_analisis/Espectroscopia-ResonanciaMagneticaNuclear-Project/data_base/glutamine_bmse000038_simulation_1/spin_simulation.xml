@@ -1,0 +1,78 @@
+<spin_simulation>
+	<version>2</version>
+	<name>L-glutamine</name>
+	<ID>bmse000038</ID>
+	<SRC name="BMRB" ID="bmse000038"></SRC>
+	<InChI>InChI=1S/C5H10N2O3/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H2,7,8)(H,9,10)/t3-/m0/s1</InChI>
+	<comp_db_link>
+		<db_link DBname="CAS Registry" Accession_code="32640-56-5"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="56-85-9"></db_link>
+	</comp_db_link>
+	<mol_file_path>./bmse000038.mol</mol_file_path>
+	<experimental_spectrum>
+		<type>Bruker</type>
+		<root_folder>./1H/</root_folder>
+	</experimental_spectrum>
+	<field_strength>400.13</field_strength>
+	<field_strength_applied_flag>1</field_strength_applied_flag>
+	<num_simulation_points>32768</num_simulation_points>
+	<num_simulation_points_applied_flag>1</num_simulation_points_applied_flag>
+	<path_2D_image>./bmse000038_.jpg</path_2D_image>
+	<num_split_matrices>0</num_split_matrices>
+	<roi_rmsd>0.01157</roi_rmsd>
+	<notes>
+		<status>done</status>
+		<note></note>
+	</notes>
+	<coupling_matrix>
+		<label>merged</label>
+		<index>1</index>
+		<lw>1.263</lw>
+		<peak_shape_coefficients>
+			<lorentzian>0.955</lorentzian>
+			<gaussian>0.045</gaussian>
+		</peak_shape_coefficients>
+		<water_region>
+			<min_ppm>4.6</min_ppm>
+			<max_ppm>5</max_ppm>
+			<remove_flag>1</remove_flag>
+		</water_region>
+		<DSS_region>
+			<min_ppm>-.1</min_ppm>
+			<max_ppm>.1</max_ppm>
+			<remove_flag>1</remove_flag>
+		</DSS_region>
+		<additional_coupling_constants>
+		</additional_coupling_constants>
+		<spin_names>
+			<spin index="1" name="13"></spin>
+			<spin index="2" name="14"></spin>
+			<spin index="3" name="11"></spin>
+			<spin index="4" name="12"></spin>
+			<spin index="5" name="15"></spin>
+		</spin_names>
+		<chemical_shifts_ppm>
+			<cs index="1" ppm="2.45435"></cs>
+			<cs index="2" ppm="2.42567"></cs>
+			<cs index="3" ppm="2.13407"></cs>
+			<cs index="4" ppm="2.11841"></cs>
+			<cs index="5" ppm="3.75998"></cs>
+		</chemical_shifts_ppm>
+		<couplings_Hz>
+			<coupling from_index="1" to_index="2" value="-14.2106370"></coupling>
+			<coupling from_index="1" to_index="3" value="9.3642640"></coupling>
+			<coupling from_index="1" to_index="4" value="6.9209140"></coupling>
+			<coupling from_index="1" to_index="5" value="1.6215660"></coupling>
+			<coupling from_index="2" to_index="3" value="6.0251850"></coupling>
+			<coupling from_index="2" to_index="4" value="9.4914930"></coupling>
+			<coupling from_index="2" to_index="5" value="0.1562140"></coupling>
+			<coupling from_index="3" to_index="4" value="-19.5854350"></coupling>
+			<coupling from_index="3" to_index="5" value="4.7919710"></coupling>
+			<coupling from_index="4" to_index="5" value="7.2853190"></coupling>
+		</couplings_Hz>
+		<peak_list>
+		</peak_list>
+		<spectrum>
+		</spectrum>
+	</coupling_matrix>
+</spin_simulation>

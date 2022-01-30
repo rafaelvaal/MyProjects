@@ -1,0 +1,77 @@
+<spin_simulation>
+	<version>2</version>
+	<name>Glycine</name>
+	<ID>bmse000089</ID>
+	<SRC name="BMRB" ID="bmse000089"></SRC>
+	<InChI>InChI=1S/C2H5NO2/c3-1-2(4)5/h1,3H2,(H,4,5)</InChI>
+	<comp_db_link>
+		<db_link DBname="CAS Registry" Accession_code="15743-44-9"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="17829-66-2"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="29728-27-6"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="32817-15-5"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="33242-26-1"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="35947-07-0"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="513-29-1"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="52955-63-2"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="56-40-6"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="57678-19-0"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="6000-43-7"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="6000-44-8"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="63183-41-5"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="71295-98-2"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="7490-95-1"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="87867-94-5"></db_link>
+	</comp_db_link>
+	<mol_file_path>./bmse000089.mol</mol_file_path>
+	<experimental_spectrum>
+		<type>Bruker</type>
+		<root_folder>./1H/</root_folder>
+	</experimental_spectrum>
+	<field_strength>499.84</field_strength>
+	<field_strength_applied_flag>1</field_strength_applied_flag>
+	<num_simulation_points>32768</num_simulation_points>
+	<num_simulation_points_applied_flag>1</num_simulation_points_applied_flag>
+	<path_2D_image>./bmse000089_.jpg</path_2D_image>
+	<num_split_matrices>0</num_split_matrices>
+	<roi_rmsd>0.01828</roi_rmsd>
+	<notes>
+		<status>done</status>
+		<note></note>
+	</notes>
+	<coupling_matrix>
+		<label>merged</label>
+		<index>1</index>
+		<lw>0.892</lw>
+		<peak_shape_coefficients>
+			<lorentzian>1.000</lorentzian>
+			<gaussian>0.000</gaussian>
+		</peak_shape_coefficients>
+		<water_region>
+			<min_ppm>4.5</min_ppm>
+			<max_ppm>5</max_ppm>
+			<remove_flag>1</remove_flag>
+		</water_region>
+		<DSS_region>
+			<min_ppm>-0.1</min_ppm>
+			<max_ppm>0.1</max_ppm>
+			<remove_flag>1</remove_flag>
+		</DSS_region>
+		<additional_coupling_constants>
+		</additional_coupling_constants>
+		<spin_names>
+			<spin index="1" name="6"></spin>
+			<spin index="2" name="7"></spin>
+		</spin_names>
+		<chemical_shifts_ppm>
+			<cs index="1" ppm="3.54433"></cs>
+			<cs index="2" ppm="3.54433"></cs>
+		</chemical_shifts_ppm>
+		<couplings_Hz>
+			<coupling from_index="1" to_index="2" value="-12.4000000"></coupling>
+		</couplings_Hz>
+		<peak_list>
+		</peak_list>
+		<spectrum>
+		</spectrum>
+	</coupling_matrix>
+</spin_simulation>

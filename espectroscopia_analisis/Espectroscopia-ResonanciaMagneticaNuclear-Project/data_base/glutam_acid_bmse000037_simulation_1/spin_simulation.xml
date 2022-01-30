@@ -1,0 +1,85 @@
+<spin_simulation>
+	<version>2</version>
+	<name>L-glutamic-acid</name>
+	<ID>bmse000037</ID>
+	<SRC name="BMRB" ID="bmse000037"></SRC>
+	<InChI>InChI=1S/C5H9NO4/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H,7,8)(H,9,10)/t3-/m0/s1</InChI>
+	<comp_db_link>
+		<db_link DBname="CAS Registry" Accession_code="10549-13-0"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="138-15-8"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="138-16-9"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="16690-92-9"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="19238-49-4"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="19473-49-5"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="24595-14-0"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="55695-80-2"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="56-86-0"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="6899-05-4"></db_link>
+		<db_link DBname="CAS Registry" Accession_code="7558-63-6"></db_link>
+	</comp_db_link>
+	<mol_file_path>./bmse000037.mol</mol_file_path>
+	<experimental_spectrum>
+		<type>Bruker</type>
+		<root_folder>./1H/</root_folder>
+	</experimental_spectrum>
+	<field_strength>499.84</field_strength>
+	<field_strength_applied_flag>1</field_strength_applied_flag>
+	<num_simulation_points>32768</num_simulation_points>
+	<num_simulation_points_applied_flag>1</num_simulation_points_applied_flag>
+	<path_2D_image>./bmse000037_.jpg</path_2D_image>
+	<num_split_matrices>0</num_split_matrices>
+	<roi_rmsd>0.00829</roi_rmsd>
+	<notes>
+		<status>Done</status>
+		<note></note>
+	</notes>
+	<coupling_matrix>
+		<label>merged</label>
+		<index>1</index>
+		<lw>0.740</lw>
+		<peak_shape_coefficients>
+			<lorentzian>1.000</lorentzian>
+			<gaussian>0.000</gaussian>
+		</peak_shape_coefficients>
+		<water_region>
+			<min_ppm>4.6</min_ppm>
+			<max_ppm>5</max_ppm>
+			<remove_flag>1</remove_flag>
+		</water_region>
+		<DSS_region>
+			<min_ppm>-.1</min_ppm>
+			<max_ppm>.1</max_ppm>
+			<remove_flag>1</remove_flag>
+		</DSS_region>
+		<additional_coupling_constants>
+		</additional_coupling_constants>
+		<spin_names>
+			<spin index="1" name="13"></spin>
+			<spin index="2" name="14"></spin>
+			<spin index="3" name="11"></spin>
+			<spin index="4" name="12"></spin>
+			<spin index="5" name="15"></spin>
+		</spin_names>
+		<chemical_shifts_ppm>
+			<cs index="1" ppm="2.32906"></cs>
+			<cs index="2" ppm="2.34867"></cs>
+			<cs index="3" ppm="2.11870"></cs>
+			<cs index="4" ppm="2.04950"></cs>
+			<cs index="5" ppm="3.74768"></cs>
+		</chemical_shifts_ppm>
+		<couplings_Hz>
+			<coupling from_index="1" to_index="2" value="-15.9396545"></coupling>
+			<coupling from_index="1" to_index="3" value="8.8391069"></coupling>
+			<coupling from_index="1" to_index="4" value="6.2358859"></coupling>
+			<coupling from_index="2" to_index="3" value="6.8022519"></coupling>
+			<coupling from_index="2" to_index="4" value="8.9199677"></coupling>
+			<coupling from_index="3" to_index="4" value="-14.8676621"></coupling>
+			<coupling from_index="3" to_index="5" value="4.7330108"></coupling>
+			<coupling from_index="4" to_index="5" value="7.2285919"></coupling>
+		</couplings_Hz>
+		<peak_list>
+		</peak_list>
+		<spectrum>
+		</spectrum>
+	</coupling_matrix>
+</spin_simulation>
